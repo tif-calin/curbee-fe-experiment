@@ -1,0 +1,5 @@
+@import url('./_style.css');
+
+main > section {
+  padding: 1rem;
+}
