@@ -13,26 +13,16 @@ form > label > span {
   align-items: center;
 }
 
-form > label *:last-child {
-  width: 12rem;
-}
-
-form .location > div:last-child input {
-  width: 5rem;
-  margin-right: 0.25rem;
-}
-
-form .photos > div:last-child input {
-  width: 10rem;
-  margin-right: 0.25rem;
-}
-
-label > span {
+form label > span {
   margin-right: 1rem;
 }
 
-label > span::after {
+form label > span::after {
   content: ':';
+}
+
+form > label *:last-child {
+  width: 12rem;
 }
 
 form > button[type="submit"] {
