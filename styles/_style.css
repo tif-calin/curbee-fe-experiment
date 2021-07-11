@@ -72,6 +72,7 @@ button:hover {
   
 ::placeholder {
   color: floralwhite;
+  opacity: 0.5;
 }
 
 /* define the heading styles */
