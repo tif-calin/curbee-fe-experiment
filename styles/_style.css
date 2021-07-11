@@ -3,13 +3,12 @@
 
 /* style the header, body, main, and footer */
 body {
-  --color-background: royalblue;
-  --color-text: floralwhite;
-  
-  background-color: var(--color-background);
+  background-color: royalblue;
   color: floralwhite;
   width: 100%;
   min-width: 360px;
+
+  font-family: Benne, 'Times New Roman', Times, serif;
 
   display: flex;
   flex-direction: column;
@@ -22,6 +21,7 @@ body > * {
 }
 
 header {
+  padding-top: 1rem;
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
@@ -42,13 +42,36 @@ footer {
 }
 
 footer a {
-  color: black;
+  color: floralwhite;
   text-decoration: none;
 }
 
 /* other styling preferences */
 hr {
   width: 100%;
+}
+
+input, button, select {
+  border: 1px dotted floralwhite;
+  background-color: royalblue;
+  color: floralwhite;
+  padding: 0.4rem;
+  border-radius: 10px;
+  outline: none;
+}
+
+button:active {
+  background-color: floralwhite;
+  color: royalblue;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #fffaf0;
+}
+  
+::placeholder {
+  color: floralwhite;
 }
 
 /* define the heading styles */

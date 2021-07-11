@@ -1,0 +1,31 @@
+@import url('./_style.css');
+
+form > label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.25rem;
+}
+
+form > label > span {
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+}
+
+form > label *:last-child {
+  width: 12rem;
+}
+
+form .location > div:last-child input {
+  width: 5rem;
+  margin-right: 0.25rem;
+}
+
+label > span {
+  margin-right: 1rem;
+}
+
+label > span::after {
+  content: ':';
+}
